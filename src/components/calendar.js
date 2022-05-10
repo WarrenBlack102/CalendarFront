@@ -50,7 +50,7 @@ export default class Calendar extends Component {
     }
 
     componentDidMount() {
-        fetch("http://127.0.0.1:5000/month/get")
+        fetch("https://calendar-api-wb.herokuapp.com/month/get")
             .then(response => response.json())
             .then(data => this.setState({
                 monthData: data,
