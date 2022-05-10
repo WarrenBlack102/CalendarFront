@@ -1,0 +1,72 @@
+.day-title-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    
+    .dayName{
+        text-align: center;
+        color: rgb(121, 169, 219);
+	font-size: 25px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(12, 8, 129);
+}
+
+}
+
+.day {
+    display: flex;
+    height: 75px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(237, 235, 236);
+
+    .Date {
+        display: flex;
+        align-self: flex-start;
+        color: rgb(29, 26, 205);
+    }
+
+    .reminderField{
+        
+        width: 100%;
+        height: 50px;
+        font-size: 9px;
+        background-color: rgb(223, 234, 243);
+        color: black;
+    }
+}
+.day-overflow {
+    display: flex;
+    height: 75px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: gray;
+
+    .Date {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        color: aliceblue;
+    }
+
+    .reminderField{
+        width: 100%;
+        height: 50px;
+        font-size: 9px;
+        background-color: rgb(223, 234, 243);
+        color: black;
+    }
+}
+
+.motivational-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:beige;
+}

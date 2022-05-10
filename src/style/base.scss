@@ -1,0 +1,68 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Pacifico', cursive;
+    
+   
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(21, 177, 188);
+    
+}
+
+.app {
+     margin-top: 1rem;
+     display: grid;
+     justify-items: center;
+
+     
+     
+     .month-name {
+         font-size: 35px;
+         display: flex;
+         justify-content: center;
+         text-align: center;
+        color: rgb(24, 77, 156);
+        text-decoration: underline;
+	
+	    -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(12, 8, 129);
+
+        .left {
+            color:rgb(12, 8, 129);
+            padding-top: 35px;
+            padding-right: 25px;
+            
+        }
+        .right {
+            color:rgb(12, 8, 129);
+            padding-top: 35px;
+            padding-left: 25px;
+            
+        }
+
+
+
+    }
+
+}
+
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(10, 44, 194);
+    font-size: 25px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
